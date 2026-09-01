@@ -1,10 +1,26 @@
 
+# dbt
 target/
 dbt_packages/
 logs/
-.env
+package-lock.yml
 dbt_internal_packages/
+
+# secrets
+.env
+.env.*
+!.env.example
 profiles.yml
 *.p8
-*-key.json
+*.pem
+*.key
+
+# python
+.venv/
+__pycache__/
+*.pyc
+
+# editor
+.vscode/settings.json
+.DS_Store
 credentials/
