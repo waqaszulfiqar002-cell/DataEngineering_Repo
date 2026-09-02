@@ -9,3 +9,9 @@ union all
 select
     2 as customer_id,
     'Waqas' as customer_name
+
+union all
+
+select
+    3 as customer_id,
+    'ALi' as customer_name
