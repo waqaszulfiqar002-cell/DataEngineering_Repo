@@ -716,3 +716,106 @@ Runtime Error
 [0m23:59:23.299969 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241488CFE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000241488D69F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000024148AD6580>]}
 [0m23:59:23.301693 [debug] [MainThread]: Flushing usage events
 [0m23:59:24.796557 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:18:54.187505 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D9771E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D7030B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DC09BC50>]}
+
+
+============================== 02:18:54.191817 | 9f2ee4a8-5f19-4ce4-872a-804a64729cc5 ==============================
+[0m02:18:54.191817 [info ] [MainThread]: Running with dbt=1.12.3
+[0m02:18:54.192473 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'target_path': 'None', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Waqas-Goraya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt init project_2', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m02:18:54.209117 [debug] [MainThread]: Starter project path: C:\Users\Waqas-Goraya\source\DataEngineering_Repo\.venv\Lib\site-packages\dbt\include\starter_project
+[0m02:18:54.238727 [info ] [MainThread]: Setting up your profile.
+[0m02:19:02.001063 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m02:19:02.001587 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m02:19:02.001999 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m02:20:57.541472 [info ] [MainThread]: Profile project_2 written to C:\Users\Waqas-Goraya\.dbt\profiles.yml using target's profile_template.yml and your supplied values.
+[0m02:20:57.546860 [info ] [MainThread]: Running dbt debug to validate the project...
+[0m02:20:57.548732 [info ] [MainThread]: dbt version: 1.12.3
+[0m02:20:57.549904 [info ] [MainThread]: python version: 3.14.6
+[0m02:20:57.550952 [info ] [MainThread]: python path: C:\Users\Waqas-Goraya\source\DataEngineering_Repo\.venv\Scripts\python.exe
+[0m02:20:57.551992 [info ] [MainThread]: os info: Windows-11-10.0.26200-SP0
+[0m02:20:57.647561 [info ] [MainThread]: Using profiles dir at C:\Users\Waqas-Goraya\.dbt
+[0m02:20:57.648131 [info ] [MainThread]: Using profiles.yml file at C:\Users\Waqas-Goraya\.dbt\profiles.yml
+[0m02:20:57.648613 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Waqas-Goraya\source\DataEngineering_Repo\project_2\dbt_project.yml
+[0m02:20:57.649462 [info ] [MainThread]: adapter type: snowflake
+[0m02:20:57.649984 [info ] [MainThread]: adapter version: 1.12.0
+[0m02:20:57.768970 [info ] [MainThread]: Configuration:
+[0m02:20:57.769616 [info ] [MainThread]:   profiles.yml file [[32mOK found and valid[0m]
+[0m02:20:57.770154 [info ] [MainThread]:   dbt_project.yml file [[32mOK found and valid[0m]
+[0m02:20:57.770626 [info ] [MainThread]: Required dependencies:
+[0m02:20:57.771105 [debug] [MainThread]: Executing "git --help"
+[0m02:20:57.808644 [debug] [MainThread]: STDOUT: "b"usage: git [-v | --version] [-h | --help] [-C <path>] [-c <name>=<value>]\n           [--exec-path[=<path>]] [--html-path] [--man-path] [--info-path]\n           [-p | --paginate | -P | --no-pager] [--no-replace-objects] [--no-lazy-fetch]\n           [--no-optional-locks] [--no-advice] [--bare] [--git-dir=<path>]\n           [--work-tree=<path>] [--namespace=<name>] [--config-env=<name>=<envvar>]\n           <command> [<args>]\n\nThese are common Git commands used in various situations:\n\nstart a working area (see also: git help tutorial)\n   clone      Clone a repository into a new directory\n   init       Create an empty Git repository or reinitialize an existing one\n\nwork on the current change (see also: git help everyday)\n   add        Add file contents to the index\n   mv         Move or rename a file, a directory, or a symlink\n   restore    Restore working tree files\n   rm         Remove files from the working tree and from the index\n\nexamine the history and state (see also: git help revisions)\n   bisect     Use binary search to find the commit that introduced a bug\n   diff       Show changes between commits, commit and working tree, etc\n   grep       Print lines matching a pattern\n   log        Show commit logs\n   show       Show various types of objects\n   status     Show the working tree status\n\ngrow, mark and tweak your common history\n   backfill   Download missing objects in a partial clone\n   branch     List, create, or delete branches\n   commit     Record changes to the repository\n   history    EXPERIMENTAL: Rewrite history\n   merge      Join two or more development histories together\n   rebase     Reapply commits on top of another base tip\n   reset      Set `HEAD` or the index to a known state\n   switch     Switch branches\n   tag        Create, list, delete or verify tags\n\ncollaborate (see also: git help workflows)\n   fetch      Download objects and refs from another repository\n   pull       Fetch from and integrate with another repository or a local branch\n   push       Update remote refs along with associated objects\n\n'git help -a' and 'git help -g' list available subcommands and some\nconcept guides. See 'git help <command>' or 'git help <concept>'\nto read about a specific subcommand or concept.\nSee 'git help git' for an overview of the system.\n""
+[0m02:20:57.809137 [debug] [MainThread]: STDERR: "b''"
+[0m02:20:57.809536 [info ] [MainThread]:  - git [[32mOK found[0m]
+
+[0m02:20:57.810013 [info ] [MainThread]: Connection:
+[0m02:20:57.810540 [info ] [MainThread]:   account: uzcfxaq-ie47928
+[0m02:20:57.810967 [info ] [MainThread]:   user: waqaszulfiqar
+[0m02:20:57.811401 [info ] [MainThread]:   database: NEW_DATABASE_test
+[0m02:20:57.811791 [info ] [MainThread]:   warehouse: data_wh
+[0m02:20:57.812207 [info ] [MainThread]:   role: accountadmin
+[0m02:20:57.812564 [info ] [MainThread]:   schema: New_schema_Test
+[0m02:20:57.812911 [info ] [MainThread]:   authenticator: None
+[0m02:20:57.813271 [info ] [MainThread]:   oauth_client_id: None
+[0m02:20:57.813618 [info ] [MainThread]:   query_tag: None
+[0m02:20:57.814025 [info ] [MainThread]:   client_session_keep_alive: False
+[0m02:20:57.814449 [info ] [MainThread]:   host: None
+[0m02:20:57.814841 [info ] [MainThread]:   port: None
+[0m02:20:57.815337 [info ] [MainThread]:   proxy_host: None
+[0m02:20:57.815876 [info ] [MainThread]:   proxy_port: None
+[0m02:20:57.816267 [info ] [MainThread]:   protocol: None
+[0m02:20:57.816696 [info ] [MainThread]:   connect_retries: 1
+[0m02:20:57.817123 [info ] [MainThread]:   connect_timeout: None
+[0m02:20:57.817495 [info ] [MainThread]:   retry_on_database_errors: False
+[0m02:20:57.817948 [info ] [MainThread]:   retry_all: False
+[0m02:20:57.818493 [info ] [MainThread]:   insecure_mode: False
+[0m02:20:57.819130 [info ] [MainThread]:   reuse_connections: True
+[0m02:20:57.819576 [info ] [MainThread]:   s3_stage_vpce_dns_name: None
+[0m02:20:57.820072 [info ] [MainThread]:   workload_identity_provider: None
+[0m02:20:57.820471 [info ] [MainThread]:   workload_identity_entra_resource: None
+[0m02:20:57.820828 [info ] [MainThread]:   platform_detection_timeout_seconds: 0.0
+[0m02:20:57.821362 [info ] [MainThread]: Registered adapter: snowflake=1.12.0
+[0m02:20:58.128069 [debug] [MainThread]: Acquiring new snowflake connection 'debug'
+[0m02:20:58.130529 [debug] [MainThread]: Using snowflake connection "debug"
+[0m02:20:58.130878 [debug] [MainThread]: On debug: select 1 as id
+[0m02:20:58.131154 [debug] [MainThread]: Opening a new connection, currently in state init
+[0m02:20:59.301314 [debug] [MainThread]: SQL status: SUCCESS 1 in 1.170 seconds
+[0m02:20:59.304928 [info ] [MainThread]:   Connection test: [[32mOK connection ok[0m]
+
+[0m02:20:59.306899 [info ] [MainThread]: [32mAll checks passed![0m
+[0m02:20:59.308877 [info ] [MainThread]: Your new dbt project "project_2" was created!
+Initialized new project in C:\Users\Waqas-Goraya\source\DataEngineering_Repo\project_2\project_2
+
+For more information on how to configure the profiles.yml file,
+please consult the dbt documentation here:
+
+  https://docs.getdbt.com/docs/configure-your-profile
+
+One more thing:
+
+Need help? Don't hesitate to reach out to us via GitHub issues or on Slack:
+
+  https://community.getdbt.com/
+
+Happy modeling!
+
+[0m02:20:59.313087 [debug] [MainThread]: Command `dbt init` succeeded at 02:20:59.312588 after 125.35 seconds
+[0m02:20:59.314507 [debug] [MainThread]: Connection 'debug' was left open.
+[0m02:20:59.315930 [debug] [MainThread]: On debug: Close
+[0m02:20:59.521416 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DE190050>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239D6D84B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000239DDE208D0>]}
+[0m02:20:59.523375 [debug] [MainThread]: Flushing usage events
+[0m02:21:00.761747 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m22:51:03.176826 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B5763D1E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B573CA0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B578CFFC50>]}
+
+
+============================== 22:51:03.200146 | e4c52691-f146-4827-8d44-2336ec900a02 ==============================
+[0m22:51:03.200146 [info ] [MainThread]: Running with dbt=1.12.3
+[0m22:51:03.202862 [debug] [MainThread]: running dbt with arguments {'maximum_seed_size_mib': '1', 'no_print': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'target_path': 'None', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'None', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Waqas-Goraya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'invocation_command': 'dbt deps', 'use_experimental_parser': 'False', 'use_colors': 'True', 'log_path': 'logs'}
+[0m22:51:03.205831 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Waqas-Goraya\source\DataEngineering_Repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m22:51:03.209453 [debug] [MainThread]: Command `dbt deps` failed at 22:51:03.208865 after 0.37 seconds
+[0m22:51:03.211228 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B578B2FE10>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B578B369F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001B578D3A580>]}
+[0m22:51:03.213032 [debug] [MainThread]: Flushing usage events
+[0m22:51:04.649740 [debug] [MainThread]: An error was encountered while trying to flush usage events

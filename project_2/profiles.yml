@@ -1,0 +1,41 @@
+TestKeyDBT:
+  outputs:
+    dev:
+      account: uzcfxaq-ie47928
+      database: NEW_DATABASE_test
+      private_key_passphrase: '''MIIBIjANBgkqhkiG9w0...''''MIIBIjANBgkqhkiG9w0...''''MIIBIjANBgkqhkiG9w0...''''MIIBIjANBgkqhkiG9w0...''''MIIBIjANBgkqhkiG9w0...'''
+      private_key_path: C:/Users/Waqas-Goraya/.ssh/snowflake/dbt_key.p8
+      role: accountadmin
+      schema: New_schema_Test
+      threads: 8
+      type: snowflake
+      user: waqaszulfiqar
+      warehouse: data_WH
+  target: dev
+my_FirstDBT:
+  outputs:
+    dev:
+      account: '{{ env_var(''SNOWFLAKE_ACCOUNT'') }}'
+      database: '{{ env_var(''SNOWFLAKE_DATABASE'') }}'
+      password: '{{ env_var(''SNOWFLAKE_PASSWORD'') }}'
+      role: '{{ env_var(''SNOWFLAKE_ROLE'') }}'
+      schema: '{{ env_var(''SNOWFLAKE_SCHEMA'') }}'
+      threads: 4
+      type: snowflake
+      user: '{{ env_var(''SNOWFLAKE_USER'') }}'
+      warehouse: '{{ env_var(''SNOWFLAKE_WAREHOUSE'') }}'
+  target: dev
+project_2:
+  outputs:
+    dev:
+      account: uzcfxaq-ie47928
+      database: NEW_DATABASE
+      private_key_passphrase: '123456789'
+      private_key_path: C:/Users/Waqas-Goraya/.ssh/snowflake/dbt_key.p8
+      role: accountadmin
+      schema: schema_Ref
+      threads: 8
+      type: snowflake
+      user: waqaszulfiqar
+      warehouse: data_wh
+  target: dev

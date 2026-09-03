@@ -1,0 +1,4 @@
+packages:
+  - local: ../my_FirstDBT
+    name: my_FirstDBT
+sha1_hash: e6b157fd7ae67d3636335314e6f5bb4bf09a2a30
