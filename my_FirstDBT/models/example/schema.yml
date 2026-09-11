@@ -19,3 +19,22 @@ models:
         data_tests:
           - unique
           - not_null
+
+  - name: My_first_dbt_table
+    description: "A starter dbt model for a table"
+    columns:
+      - name: customer_id
+        description: "The primary key for this table"
+        data_tests:
+          - unique
+          - not_null
+
+seeds:
+  - name: country_codes
+    description: Manually maintained ISO country lookup
+    columns:
+      - name: country_code
+        description: ISO 3166-1 alpha-2
+        data_tests:
+          - unique
+          - not_null

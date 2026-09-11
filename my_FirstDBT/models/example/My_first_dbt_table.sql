@@ -14,4 +14,4 @@ union all
 
 select
     3 as customer_id,
-    'ALi' as customer_name
+    'Ali' as customer_name
