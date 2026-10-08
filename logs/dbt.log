@@ -834,3 +834,11 @@ Runtime Error
 [0m18:04:22.240914 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000014616115940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146161327B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x00000146161A3CE0>]}
 [0m18:04:22.241391 [debug] [MainThread]: Flushing usage events
 [0m18:04:23.718852 [debug] [MainThread]: An error was encountered while trying to flush usage events
+==================== 2026-10-08T16:28:20.785197Z | 01a11c58-23ae-7d10-8e73-2b3dff07f417 ====================
+16:28:20.785698 [info ]: Installing dbt project and profile setup
+16:28:20.839020 [info ]: Info Created .vscode/extensions.json with dbt extension recommendation
+16:28:20.842134 [info ]: Success Project created successfully!
+16:28:20.842391 [info ]: Info Project name: jaffle_shop
+16:28:20.842681 [info ]: Info Project directory: jaffle_shop
+16:28:20.843498 [info ]: Info Setting up your profile...
+16:28:20.844109 [info ]: Info Creating new profile...
