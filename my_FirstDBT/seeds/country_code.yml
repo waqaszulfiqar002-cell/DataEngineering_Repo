@@ -1,0 +1,5 @@
+seeds:
+  - name: country_code
+    config:
+      grant:
+        select: ['transformer','public']
