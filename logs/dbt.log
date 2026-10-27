@@ -948,3 +948,41 @@ Runtime Error
 [0m03:19:10.380979 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEF9D9E780>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEFA004170>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001BEF9FAD370>]}
 [0m03:19:10.381576 [debug] [MainThread]: Flushing usage events
 [0m03:19:11.594071 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m20:34:30.253743 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A34CB35E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A34A3F0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A34F45BC50>]}
+
+
+============================== 20:34:30.271106 | 0d32a1e0-2182-43bb-8a16-64ce750bdf82 ==============================
+[0m20:34:30.271106 [info ] [MainThread]: Running with dbt=1.12.3
+[0m20:34:30.273962 [debug] [MainThread]: running dbt with arguments {'version_check': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'static_parser': 'True', 'printer_width': '80', 'write_json': 'True', 'empty': 'None', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Waqas-Goraya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt debug', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m20:34:30.368699 [info ] [MainThread]: dbt version: 1.12.3
+[0m20:34:30.370707 [info ] [MainThread]: python version: 3.14.6
+[0m20:34:30.372532 [info ] [MainThread]: python path: C:\Users\Waqas-Goraya\source\DataEngineering_Repo\.venv\Scripts\python.exe
+[0m20:34:30.374452 [info ] [MainThread]: os info: Windows-11-10.0.26300-SP0
+[0m20:34:31.194985 [debug] [MainThread]: Snowflake adapter: Setting snowflake.connector to ERROR (file logging only)
+[0m20:34:31.195837 [debug] [MainThread]: Snowflake adapter: Setting botocore to ERROR (file logging only)
+[0m20:34:31.196515 [debug] [MainThread]: Snowflake adapter: Setting boto3 to ERROR (file logging only)
+[0m20:34:31.456014 [info ] [MainThread]: Using profiles dir at C:\Users\Waqas-Goraya\.dbt
+[0m20:34:31.457329 [info ] [MainThread]: Using profiles.yml file at C:\Users\Waqas-Goraya\.dbt\profiles.yml
+[0m20:34:31.458336 [info ] [MainThread]: Using dbt_project.yml file at C:\Users\Waqas-Goraya\source\DataEngineering_Repo\dbt_project.yml
+[0m20:34:31.459437 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Internal Error
+  Profile should not be None if loading profile completed
+[0m20:34:31.462153 [debug] [MainThread]: Command `dbt debug` failed at 20:34:31.461864 after 1.72 seconds
+[0m20:34:31.463110 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A350B52C40>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A350EEE0F0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002A350F605A0>]}
+[0m20:34:31.464105 [debug] [MainThread]: Flushing usage events
+[0m20:34:32.893387 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m02:19:04.583913 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630C411E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x0000026309CE0B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630EDC39D0>]}
+
+
+============================== 02:19:04.601099 | f7d50ee5-ae89-44a0-88dc-af175e2649a5 ==============================
+[0m02:19:04.601099 [info ] [MainThread]: Running with dbt=1.12.3
+[0m02:19:04.603829 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'version_check': 'True', 'printer_width': '80', 'write_json': 'True', 'introspect': 'True', 'log_cache_events': 'False', 'empty': 'False', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'profiles_dir': 'C:\\Users\\Waqas-Goraya\\.dbt', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'partial_parse': 'True', 'use_colors': 'True', 'hints_enabled': 'True', 'invocation_command': 'dbt compile', 'use_experimental_parser': 'False', 'indirect_selection': 'eager', 'log_path': 'logs'}
+[0m02:19:04.605912 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Waqas-Goraya\source\DataEngineering_Repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m02:19:04.609198 [debug] [MainThread]: Command `dbt compile` failed at 02:19:04.608731 after 0.33 seconds
+[0m02:19:04.610635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630ED25940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630ED427B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630EDB7CE0>]}
+[0m02:19:04.612140 [debug] [MainThread]: Flushing usage events
+[0m02:19:06.178851 [debug] [MainThread]: An error was encountered while trying to flush usage events
