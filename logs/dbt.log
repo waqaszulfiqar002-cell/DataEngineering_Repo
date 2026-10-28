@@ -986,3 +986,18 @@ Runtime Error
 [0m02:19:04.610635 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630ED25940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630ED427B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000002630EDB7CE0>]}
 [0m02:19:04.612140 [debug] [MainThread]: Flushing usage events
 [0m02:19:06.178851 [debug] [MainThread]: An error was encountered while trying to flush usage events
+[0m15:27:17.736121 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'start', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF4E3A1E80>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF4BC60B90>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF50D579D0>]}
+
+
+============================== 15:27:17.740932 | 95869ff7-4ce7-4499-8112-6c4c51bbdcd4 ==============================
+[0m15:27:17.740932 [info ] [MainThread]: Running with dbt=1.12.3
+[0m15:27:17.741597 [debug] [MainThread]: running dbt with arguments {'static_parser': 'True', 'no_print': 'None', 'maximum_seed_size_mib': '1', 'target_path': 'None', 'version_check': 'True', 'warn_error_options': 'WarnErrorOptionsV2(error=[], warn=[], silence=[])', 'printer_width': '80', 'write_json': 'True', 'empty': 'False', 'log_cache_events': 'False', 'introspect': 'True', 'cache_selected_only': 'False', 'fail_fast': 'False', 'debug': 'False', 'log_format': 'default', 'partial_parse': 'True', 'send_anonymous_usage_stats': 'True', 'quiet': 'False', 'warn_error': 'None', 'profiles_dir': 'C:\\Users\\Waqas-Goraya\\.dbt', 'indirect_selection': 'eager', 'hints_enabled': 'True', 'use_colors': 'True', 'use_experimental_parser': 'False', 'invocation_command': 'dbt build', 'log_path': 'logs'}
+[0m15:27:17.742149 [error] [MainThread]: [[31mERROR[0m]: Encountered an error:
+Runtime Error
+  No dbt_project.yml found at expected path C:\Users\Waqas-Goraya\source\DataEngineering_Repo\dbt_project.yml
+  Verify that each entry within packages.yml (and their transitive dependencies) contains a file named dbt_project.yml
+  
+[0m15:27:17.742955 [debug] [MainThread]: Command `dbt build` failed at 15:27:17.742834 after 0.17 seconds
+[0m15:27:17.743340 [debug] [MainThread]: Sending event: {'category': 'dbt', 'action': 'invocation', 'label': 'end', 'context': [<snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF50CB5940>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF50CD67B0>, <snowplow_tracker.self_describing_json.SelfDescribingJson object at 0x000001DF50D47CE0>]}
+[0m15:27:17.743725 [debug] [MainThread]: Flushing usage events
+[0m15:27:18.955111 [debug] [MainThread]: An error was encountered while trying to flush usage events
